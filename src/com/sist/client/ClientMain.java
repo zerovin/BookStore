@@ -18,6 +18,7 @@ public class ClientMain extends JFrame implements ActionListener{
 		setResizable(false);
 		setDefaultCloseOperation(EXIT_ON_CLOSE); 
 		
+		mp.b1.addActionListener(this);
 		mp.b2.addActionListener(this);
 		mp.b3.addActionListener(this);
 		mp.b4.addActionListener(this);
@@ -30,7 +31,7 @@ public class ClientMain extends JFrame implements ActionListener{
 			UIManager.setLookAndFeel("com.jtattoo.plaf.mcwin.McWinLookAndFeel");
 		}catch(Exception ex) {}
 		new ClientMain();
-		new Login();
+		//new Login();
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) { 

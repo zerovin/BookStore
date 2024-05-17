@@ -11,7 +11,7 @@ public class MenuPanel extends JPanel{
 		b1=new JButton("홈"); //목록, 상세
 		b2=new JButton("검색"); //검색, 상세
 		b3=new JButton("뉴스"); //쪽지, 채팅
-		b4=new JButton("후기리뷰"); //목록, 상세, 수정, 추가, 삭제
+		b4=new JButton("후기게시판"); //목록, 상세, 수정, 추가, 삭제
 		b5=new JButton("채팅"); //뉴스검색
 		b6=new JButton("나가기");
 		

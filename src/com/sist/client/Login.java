@@ -42,6 +42,8 @@ public class Login extends JFrame{
 		
 		//출력여부
 		setVisible(true);
+		setResizable(false);
+		setDefaultCloseOperation(EXIT_ON_CLOSE); 
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

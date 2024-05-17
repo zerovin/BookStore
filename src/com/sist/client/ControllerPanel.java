@@ -9,6 +9,14 @@ public class ControllerPanel extends JPanel{
 	public NewsPanel np=new NewsPanel();
 	public ReviewPanel rp=new ReviewPanel();
 	public ChatPanel chp=new ChatPanel();
+
+	/*
+	public WriteReview write=new WriteReview();
+	public DetailPanel detail=new DetailPanel();
+	public EditReview edit=new EditReview();
+	public DeleteCheckPanel delete=new DeleteCheckPanel();
+	*/ 
+	
 	public ControllerPanel() {
 		setLayout(card);
 		add("HOME",hp);
@@ -16,5 +24,12 @@ public class ControllerPanel extends JPanel{
 		add("NEWS",np);
 		add("REVIEW", rp);
 		add("CHAT", chp);
+		
+		/*
+		add("WRITE", write);
+		add("DETAIL", detail);
+		add("EDIT", edit);
+		add("DELETE", delte);
+		*/
 	}
 }
