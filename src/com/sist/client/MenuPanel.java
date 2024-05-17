@@ -16,7 +16,7 @@ public class MenuPanel extends JPanel{
 		b6=new JButton("나가기");
 		
 		//추가
-		add(b1);add(b2);add(b3);add(b4);add(b5);add(b6);
+		add(b1);add(b2);add(b3);add(b4);add(b5);add(b6); 
 		
 	}
 }
